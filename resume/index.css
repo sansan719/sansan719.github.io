@@ -47,25 +47,25 @@
 }
 
 .out3{
-	height:100px;
+	height:110px;
 	width: 100%;
 	clear: both;
 }
 
 .left3{
-	height:100px;
+	height:110px;
 	width: 25%;
 	float: left;
 }
 
 .right3{
-	height:100px;
+	height:110px;
 	width: 25%;
 	float: right;
 }
 
 .mid3{
-	height:100px;
+	height:110px;
 	width: 50%;
 	margin-left: 25%;
 }
