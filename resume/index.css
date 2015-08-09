@@ -1,23 +1,23 @@
 .out{
-	height:300px;
+	height:310px;
 	width: 100%;
 	clear: both;
 }
 
 .left{
-	height:300px;
+	height:310px;
 	width: 25%;
 	float: left;
 }
 
 .right{
-	height:300px;
+	height:310px;
 	width: 25%;
 	float: right;
 }
 
 .mid{
-	height:300px;
+	height:310px;
 	width: 50%;
 	margin-left: 25%;
 }
@@ -46,6 +46,29 @@
 	margin-left: 25%;
 }
 
+.out3{
+	height:70px;
+	width: 100%;
+	clear: both;
+}
+
+.left3{
+	height:70px;
+	width: 25%;
+	float: left;
+}
+
+.right3{
+	height:70px;
+	width: 25%;
+	float: right;
+}
+
+.mid3{
+	height:70px;
+	width: 50%;
+	margin-left: 25%;
+}
 .footer{
 	height: 100px;
 	width: 100%;
