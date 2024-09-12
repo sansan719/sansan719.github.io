@@ -1,0 +1,207 @@
+nav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  .logo {
+    float: left;
+  }
+  .menu {
+    float: right;
+    a {
+      border-radius: 5px;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  a {
+    display: inline-block;
+    padding: 6px 5px;
+    // height: 50px;
+    // line-height: 50px;
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    transition: 0.3s;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  // height: 600px;
+  text-align: center;
+  position: relative;
+  @include all {
+    padding-top: 140px;
+    padding-bottom: 150px;
+  }
+  @include sm {
+    padding-top: 140px;
+    padding-bottom: 150px;
+  }
+  @include md {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+  @include xl {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+}
+
+// header {
+//     position: relative;
+//     height: 0;
+//     padding-bottom: 37.5%;
+//     .wrapper {
+//         position: absolute;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         height: 100%;
+//         width: 100%;
+//         // background: #faa;
+//         .content {
+//             width: 600px;
+//         }
+//     }
+// }
+// owl-carousel custom css
+
+// #about {
+//     font-size: 0;
+// }
+// #about .col-sm-6{
+//     display: inline-block;
+//     vertical-align: middle;
+//     font-size: 16px;
+//     float: none!important;
+// }
+// #about {
+// padding-top: 50px;
+// padding-bottom: 50px;
+// @include sm(){
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+// }
+
+* {
+  box-sizing: border-box;
+}
+
+/* force scrollbar */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  column-count: 3;
+  font-family: arial;
+}
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+.gallery-item figure {
+  margin: 0;
+  position: relative;
+}
+.gallery-item figcaption {
+  font-style: italic;
+  padding: 8px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 3px;
+  color: #fff;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 0 0 14px 14px;
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 14px;
+}
+.gallery-item p {
+  margin: 0;
+  padding: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .gallery {
+    column-count: 3;
+  }
+}
+
+header .fixed-width .shot {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  overflow: hidden;
+  @include all {
+    width: 60px;
+    height: 60px;
+  }
+}
+// header .fixed-width{
+//     position: relative;
+// }
+
+header .fixed-width .title {
+  padding-top: 15%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-15 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  clear: both;
+}
+
+/* ## BACK TO TOP */
+#gotop {
+  position: fixed;
+  // border-radius: 10px;
+  right: 20px;
+  bottom: 20px;
+  // padding: 10px 10px;
+  font-size: 3rem;
+  // background: rgba(255, 222, 222, 0.815);
+  color: rgb(43, 142, 255);
+  cursor: pointer;
+  z-index: 1000;
+}
